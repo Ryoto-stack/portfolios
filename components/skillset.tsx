@@ -47,7 +47,7 @@ const Skillset = () => {
         <div className="flex flex-wrap justify-center items-center text-center gap-4">
           {Logos.map((logo, i) => (
             <div
-              className="bg-slate-100 dark:bg-[#4e5f79] rounded-lg p-6 lg:p-12"
+              className="bg-slate-100 dark:bg-[#4e5f79] rounded-lg p-6 lg:p-12 h-48 items-center justify-center flex"
               key={i}
             >
               <Image
@@ -55,7 +55,7 @@ const Skillset = () => {
                 width={96}
                 src={logo.logo}
                 alt={logo.alt}
-                className="object-contain"
+                className="object-fit"
               />
             </div>
           ))}
