@@ -1,5 +1,5 @@
 import Footer from "@/components/Footer";
-import { GlobeDemo } from "@/components/Globe";
+
 import HeroSection from "@/components/HeroSection";
 import Skillset from "@/components/skillset";
 import Works from "@/components/Works";
@@ -17,7 +17,7 @@ export default function Home() {
         <Skillset />
       </section>
       <section className="w-full  ">
-        <GlobeDemo/>
+        
       </section>
       <div className="w-full flex">
       <Footer/>
